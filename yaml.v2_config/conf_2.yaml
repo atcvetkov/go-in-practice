@@ -1,0 +1,10 @@
+# type YamlConfig struct {
+# 	Connection struct {
+# 		Host string `yaml:"host"`
+# 		Port int    `yaml:"port"`
+# 	}
+# }
+
+connection:
+  host123: "google.com"
+  port456: 8080
