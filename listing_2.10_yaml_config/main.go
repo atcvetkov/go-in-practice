@@ -15,4 +15,6 @@ func main() {
 	fmt.Println(config.Get("path"))
 	fmt.Println(config.GetBool("enabled"))
 
+	fmt.Println("TEST")
+
 }
