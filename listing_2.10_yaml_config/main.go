@@ -12,9 +12,9 @@ func main() {
 		fmt.Println(err)
 	}
 
+	fmt.Printf("%T\n", config)
+
 	fmt.Println(config.Get("path"))
 	fmt.Println(config.GetBool("enabled"))
-
-	fmt.Println("TEST")
 
 }
